@@ -19,10 +19,7 @@ import java.net.http.HttpResponse;
 
 @Controller
 public class PageController {
-
-
     LngLatModel wetterStadt = new LngLatModel();
-
     @GetMapping("/auswahlStadt")
     public String auswahlStadt(Model model) throws IOException, InterruptedException {
         if(wetterStadt.getMyStadt() != null){
@@ -84,8 +81,6 @@ public class PageController {
            wetterStadt.setWeathercode(weathercode);
            System.out.println(weathercode + " WETTERCODE");
        }
-
-
        public String stringWetterCode(Integer weathercode){
         String wetterCode = "";
         if(weathercode >= 0 && weathercode < 10){
