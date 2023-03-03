@@ -64,7 +64,7 @@ public class PageController {
            // Objekt füllen
            wetterStadt.setLat(lat);
            wetterStadt.setLng(lng);
-       }//test
+       }//test2
        public void wetterDetails() throws IOException, InterruptedException {
            HttpClient client = HttpClient.newHttpClient();
            HttpRequest request = HttpRequest.newBuilder()
