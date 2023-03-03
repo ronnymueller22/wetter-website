@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Ronny's - Wetterabfrage :-)</title>
+    <link th:href = "@{/css/bootstrap.min.css}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body>
+<div class="description">
+<h1>Wähle das Wetter für Deine Stadt:</h1>
+    <br>
+    <form method="post" action="/auswahlStadt">
+    <input type="text" name="testName" class="css-input input-lg text-center" />
+        <p></p>
+        <button type="submit" class="btn btn-sq-lg btn-success">Lets gooooo <i class="bi-check-lg"></i></button>
+    </form>
+    <p></p>
+   <h1 class="animate__animated animate__zoomInUp">[[${ausgabe}]]</h1>
+    <p>[[${error}]]</p>
+
+
+
+</div>
+</body>
+</html>
+

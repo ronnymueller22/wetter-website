@@ -1,0 +1,45 @@
+.wetterInput-field {
+  font-size: 80px
+
+}
+
+
+.css-input {
+     padding: 5px;
+     font-size: 50px;
+     border-width: 2px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #ff9e00;
+     border-style: solid;
+     border-radius: 38px;
+     box-shadow: 0px 0px 16px rgba(64,215,29,.28);
+     text-shadow: -3px 0px 7px rgba(66,66,66,.75);
+
+}
+ .css-input:focus {
+     outline:none;
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+.description h1 {
+	color: #6ab446;
+}
+.description p {
+	color: #6ab446;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.btn-sq-lg {
+  width: 200px !important;
+  height: 80px !important;
+  padding: 3px
+}
+
