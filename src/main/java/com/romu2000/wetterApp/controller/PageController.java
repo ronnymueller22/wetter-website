@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+//git test4
 
 import java.io.IOException;
 import java.math.BigDecimal;
@@ -16,6 +17,8 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
+
+// test
 
 @Controller
 public class PageController {
@@ -64,7 +67,7 @@ public class PageController {
            // Objekt füllen
            wetterStadt.setLat(lat);
            wetterStadt.setLng(lng);
-       }
+       }//test2
        public void wetterDetails() throws IOException, InterruptedException {
            HttpClient client = HttpClient.newHttpClient();
            HttpRequest request = HttpRequest.newBuilder()
